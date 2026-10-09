@@ -16,6 +16,11 @@ vendor/etc/acdbdata/17021/Hdmi_cal.acdb
 vendor/etc/acdbdata/17021/Headset_cal.acdb
 vendor/etc/acdbdata/17021/Speaker_cal.acdb
 
+# Camera - device-specific 3A and its MCT loader, from R11s C.19 stock
+vendor/lib/libmmcamera2_mct_shimlayer.so
+vendor/lib/libmmcamera2_q3a_core.so
+vendor/lib/libmmcamera2_stats_modules.so
+
 # Camera (actuators)
 vendor/lib/libactuator_ad5816g.so
 vendor/lib/libactuator_ad5823.so
@@ -2168,9 +2173,7 @@ vendor/etc/camera/s5k3p8sp_chromatix.xml
 # Camera (mmcamera)
 vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so
 vendor/lib/libmmcamera_csidtg.so
-vendor/lib/libmmcamera_dummyalgo.so
 vendor/lib/libmmcamera_dw9761b_2d_eeprom.so
-vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_gc2375h.so
 vendor/lib/libmmcamera_hvx_add_constant.so
 vendor/lib/libmmcamera_hvx_grid_sum.so
@@ -2258,7 +2261,6 @@ vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7sx_eeprom.so
 vendor/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so
 vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so
 vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so
-vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_truly_cma481_eeprom.so
 vendor/lib/libmmcamera_truly_cmb433_eeprom.so
 
