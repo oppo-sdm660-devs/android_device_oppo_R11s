@@ -1,0 +1,12 @@
+#
+# Copyright (C) 2025 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+# Camera
+# Stock camera props, R11s only.
+ro.camera.dualcam.type=2
+persist.camera.aifb=1
+ro.camera.filter.version=1
+ro.camera.temperature.limit=480
