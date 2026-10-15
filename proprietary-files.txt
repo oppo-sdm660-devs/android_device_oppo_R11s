@@ -2336,3 +2336,6 @@ vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
 # Keystore
 vendor/lib/hw/keystore.sdm660.so
 vendor/lib64/hw/keystore.sdm660.so
+
+# HAL3 native rear beauty - use the matching C.19 implementation
+vendor/lib/libarcsoft_relighting_pro_image.so
