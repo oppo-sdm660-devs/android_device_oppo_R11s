@@ -1,0 +1,16 @@
+#
+# Copyright (C) 2025 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+# Camera
+# Stock R11s per-project props (system/build_17011.prop, build_17013.prop,
+# build_17021.prop, build_17023.prop and build_default.prop all carry these
+# four lines; the R11 per-project props do not). In-process stock camera
+# modules read them (ro.camera.dualcam.type is read by the packaged
+# libmmcamera2_q3a_core.so / libmmcamera_imglib.so), so R11s must set them.
+ro.camera.dualcam.type=2
+persist.camera.aifb=1
+ro.camera.filter.version=1
+ro.camera.temperature.limit=480
